@@ -52,8 +52,9 @@
         <fastdfs-client.version>1.26.7</fastdfs-client.version>
         <mysql.connector.version>8.0.13</mysql.connector.version>
         <!-- common -->
+        <commons-lang3.version>3.11</commons-lang3.version>
         <commons-io.version>2.6</commons-io.version>
-        <commons-collections4.version>4.1</commons-collections4.version>
+        <commons-collections4.version>4.4</commons-collections4.version>
         <commons-beanutils.version>1.9.2</commons-beanutils.version>
 
         <!-- 其它依赖 -->
@@ -358,11 +359,27 @@
                 <artifactId>javase</artifactId>
                 <version>${zxing.version}</version>
             </dependency>
+ <!--
             <dependency>
                 <groupId>QRCode</groupId>
                 <artifactId>QRCode</artifactId>
                 <version>${qrCode.version}</version>
             </dependency>
+-->
+<!-- https://mvnrepository.com/artifact/com.github.binarywang/qrcode-utils -->
+<dependency>
+    <groupId>com.github.binarywang</groupId>
+    <artifactId>qrcode-utils</artifactId>
+    <version>1.2</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/com.google.zxing/core -->
+<dependency>
+    <groupId>com.google.zxing</groupId>
+    <artifactId>core</artifactId>
+    <version>3.4.0</version>
+</dependency>
+
         </dependencies>
     </dependencyManagement>
 
