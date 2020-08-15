@@ -44,7 +44,7 @@
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <!-- spring boot、spring cloud -->
-        <spring-boot.version>2.2.5.RELEASE</spring-boot.version>
+        <spring-boot.version>2.2.9.RELEASE</spring-boot.version>
         <spring-cloud.version>Hoxton.SR7</spring-cloud.version>
         <spring-boot-admin.version>2.2.0</spring-boot-admin.version>
         <zipkin.version>2.11.3</zipkin.version>
@@ -56,6 +56,8 @@
         <commons-io.version>2.6</commons-io.version>
         <commons-collections4.version>4.4</commons-collections4.version>
         <commons-beanutils.version>1.9.2</commons-beanutils.version>
+        <jackson.version>2.11.2</jackson.version>
+
 
         <!-- 其它依赖 -->
         <hibernate-validator.version>6.0.14.Final</hibernate-validator.version>

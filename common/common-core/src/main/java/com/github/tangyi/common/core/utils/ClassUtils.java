@@ -57,12 +57,12 @@ public class ClassUtils extends org.springframework.util.ClassUtils {
         Class<?> targetClass = method.getDeclaringClass();
         // The method may be on an interface, but we need attributes from the target class.
         // If the target class is null, the method will be unchanged.
-        Method specificMethod = ClassUtils.getMostSpecificMethod(method, targetClass);
+        Method specificMethod = getMostSpecificMethod(method, targetClass);
         // If we are dealing with method with generic parameters, find the original method.
         specificMethod = BridgeMethodResolver.findBridgedMethod(specificMethod);
         // 先找方法，再找方法上的类
         A annotation = AnnotatedElementUtils.findMergedAnnotation(specificMethod, annotationType);
-        ;
+        
         if (null != annotation) {
             return annotation;
         }

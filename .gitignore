@@ -22,3 +22,5 @@ atlassian-ide-plugin.xml
 !etc/eclipse/.checkstyle
 .checkstyle
 .dev.env
+.factorypath
+.vscode
