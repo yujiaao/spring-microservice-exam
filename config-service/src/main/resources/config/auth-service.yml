@@ -3,8 +3,8 @@ server:
 spring:
   datasource:
     url: jdbc:mysql://${MYSQL_HOST:localhost}:${MYSQL_PORT:3306}/${DB_AUTH:microservice-auth}?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=CTT&characterEncoding=UTF-8
-    username: ${MYSQL_USERNAME:root}
-    password: ${MYSQL_PASSWORD:11}
+    username: ${MYSQL_USERNAME:microexam}
+    password: ${MYSQL_PASSWORD:microexam123}
     type: com.zaxxer.hikari.HikariDataSource
     driver-class-name: com.mysql.jdbc.Driver
   redis:

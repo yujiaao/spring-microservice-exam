@@ -88,9 +88,9 @@
             <artifactId>xmlbeans</artifactId>
             <version>${xmlbeans.version}</version>
         </dependency>
-        <!-- hibernate-validator -->
+        <!-- hibernate-validator参数校验 -->
         <dependency>
-            <groupId>org.hibernate</groupId>
+            <groupId>org.hibernate.validator</groupId>
             <artifactId>hibernate-validator</artifactId>
             <version>${hibernate-validator.version}</version>
         </dependency>
@@ -105,11 +105,7 @@
             <artifactId>jasypt-spring-boot-starter</artifactId>
             <version>${jasypt.version}</version>
         </dependency>
-        <!-- hibernate-validator参数校验 -->
-        <dependency>
-            <groupId>org.hibernate.validator</groupId>
-            <artifactId>hibernate-validator</artifactId>
-        </dependency>
+
 
         <dependency>
             <groupId>com.squareup.okhttp3</groupId>
@@ -134,17 +130,10 @@
             <groupId>com.google.zxing</groupId>
             <artifactId>javase</artifactId>
         </dependency>
-<!-- https://mvnrepository.com/artifact/com.google.zxing/core -->
-        <!-- 二维码 -->
-<!--<dependency>-->
-<!--    <groupId>com.google.zxing</groupId>-->
-<!--    <artifactId>core</artifactId>-->
-<!--    <version>3.4.0</version>-->
-<!--</dependency>-->
-        <dependency>
-            <groupId>QRCode</groupId>
-            <artifactId>QRCode</artifactId>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>QRCode</groupId>-->
+<!--            <artifactId>QRCode</artifactId>-->
+<!--        </dependency>-->
     </dependencies>
 
 </project>
